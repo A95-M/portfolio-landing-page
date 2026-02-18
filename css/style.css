@@ -96,3 +96,39 @@ footer {
     width: 100%;
   }
 }
+
+form {
+  max-width: 400px;
+  margin-top: 1rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #111;
+  outline-offset: 2px;
+}
+
+button:hover {
+  background-color: #333;
+}
