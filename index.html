@@ -8,7 +8,8 @@
 </head>
 <body>
   <header>
-    <nav>
+    <div class="container">
+<nav aria-label="Main Navigation">
       <h1>Ash.div</h1>
       <ul>
         <li><a href="#about">About</a></li>
@@ -16,24 +17,30 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-  </header>
+    </div>
+    </header>
 
   <main>
     <section id="hero">
+      <div class="container">
       <h2>Junior Frontend Developer</h2>
       <p>I build clean and responsive web interfaces.</p>
-      <a href="#projects">View Projects</a>
-    </section>
+      <a href="#projects">View Projects</a>  
+      </div>
+      </section>
 
     <section id="about">
-      <h2>About Me</h2>
+      <div class="container">
+        <h2>About Me</h2>
       <p>
         I am a junior frontend developer focused on HTML, CSS and modern web standards.
       </p>
-    </section>
+      </div>
+      </section>
 
     <section id="projects">
-      <h2>Projects</h2>
+      <div class="container">
+       <h2>Projects</h2>
 
       <article>
         <h3>Landing Page</h3>
@@ -43,11 +50,13 @@
       <article>
         <h3>API App</h3>
         <p>A simple app that fetches data from an external API.</p>
-      </article>
-    </section>
+      </article> 
+      </div>
+      </section>
 
     <section id="contact">
-      <h2>Contact</h2>
+      <div class="container">
+       <h2>Contact</h2>
       <form>
         <label for="email">Email</label>
         <input type="email" id="email" required />
@@ -56,13 +65,16 @@
         <textarea id="message" required></textarea>
 
         <button type="submit">Send</button>
-      </form>
-    </section>
+      </form> 
+      </div>
+      </section>
   </main>
 
   <footer>
-    <p>© 2026 Ash. All rights reserved.</p>
-  </footer>
+    <div class="container">
+    <p>© 2026 Ash. All rights reserved.</p>  
+    </div>
+    </footer>
   
 </body>
 </html>
