@@ -48,8 +48,15 @@ nav a {
 }
 
 section {
-  padding: 4rem 2rem;
+  padding: 4rem 0;
 }
+
+#projects .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
 
 #hero {
   text-align: center;
@@ -73,6 +80,12 @@ footer {
 }
 
 @media (max-width: 768px) {
+  
+  /* Projects responsive */
+  #projects .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  
   /* Mobile adjustments */
   nav {
     flex-direction: column;
