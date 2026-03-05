@@ -57,6 +57,26 @@ section {
   gap: 2rem;
 }
 
+#projects article {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+#projects article:hover {
+  transform: translateY(-5px);
+}
+
+#projects h3 {
+  margin-bottom: 0.5rem;
+}
+
+#projects p {
+  color: #555;
+}
+
 
 #hero {
   text-align: center;
