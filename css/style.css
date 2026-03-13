@@ -77,6 +77,21 @@ section {
   color: #555;
 }
 
+.skills-list {
+  list-style: none;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skills-list li {
+  background-color: #eee;
+  padding: 0.35rem 0.7rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
 
 #hero {
   text-align: center;
