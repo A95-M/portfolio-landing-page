@@ -80,6 +80,12 @@ section {
   color: #555;
 }
 
+#projects img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+}
+
 .skills-list {
   list-style: none;
   margin-top: 1rem;
