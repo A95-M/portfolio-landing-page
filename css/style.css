@@ -60,17 +60,20 @@ section {
 #projects article {
   background-color: #fff;
   padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease,
+  box-shadow 0.25s ease;
 }
 
 #projects article:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
 }
 
 #projects h3 {
   margin-bottom: 0.5rem;
+  font-size: 1.1rem;
 }
 
 #projects p {
