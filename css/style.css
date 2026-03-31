@@ -64,6 +64,16 @@ section {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   transition: transform 0.25s ease,
   box-shadow 0.25s ease;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#projects img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
 }
 
 #projects article:hover {
